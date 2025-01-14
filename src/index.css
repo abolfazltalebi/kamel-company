@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+  font-family: "iranman";
+  src: 
+    url("/src/assets/font/IRANSansX-Light.ttf"),
+    url("/src/assets/font/IRANSansX-Medium.ttf"),
+    url("/src/assets/font/IRANSansX-Regular.ttf"),
+    url("/src/assets/font/IRANSansX-Thin.ttf");
+}
+html,
+body {
+  font-family: "iranman";
+}
