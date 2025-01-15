@@ -6,10 +6,25 @@
   src: url("/src/assets/font/IRANSansX-Light.ttf"),
     url("/src/assets/font/IRANSansX-Medium.ttf"),
     url("/src/assets/font/IRANSansX-Regular.ttf"),
+    url("/src/assets/font/IRANSansX-Bold.ttf"),
+    url("/src/assets/font/IRANSansX-DemiBold.ttf"),
+    url("/src/assets/font/IRANSansX-ExtraBold.ttf"),
     url("/src/assets/font/IRANSansX-Thin.ttf");
 }
 html,
 body {
   font-family: "iranman";
   @apply bg-bg-main;
+}
+.swiper-pagination-bullet {
+  opacity: 0.8;
+  transition: all 0.3s;
+}
+
+.swiper-pagination-bullet-active {
+  opacity: 1;
+  transform: scale(1.1);
+  width: 40px !important;
+  height: 13px !important;
+  border-radius: 15px !important;
 }

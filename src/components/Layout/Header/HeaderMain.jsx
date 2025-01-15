@@ -1,4 +1,4 @@
-import Buttons from "../Buttons";
+import ButtonHeader from "../ButtonHeader";
 import { HeaderItem } from "../../../contatans/HeaderItem";
 import { Link } from "react-router-dom";
 
@@ -19,7 +19,7 @@ export default function HeaderMain() {
             );
           })}
         </ul>
-        <Buttons titleOne=" تماس با ما" titleTwo=" همکاری با ما" />
+        <ButtonHeader />
       </div>
     </>
   );

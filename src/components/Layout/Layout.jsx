@@ -1,12 +1,12 @@
-import { Outlet } from "react-router-dom";
-import Header from "./Header/Header";
 import Footer from "./Footer/Footer";
+import Header from "./Header/Header";
+import { Outlet } from "react-router-dom";
 
 function Layout() {
   return (
     <>
       <Header />
-      <main className="">
+      <main className="space-y-12">
         <Outlet />
       </main>
       <Footer />
