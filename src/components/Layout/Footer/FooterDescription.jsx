@@ -4,10 +4,10 @@ export default function FooterDescription() {
   return (
     <div className="pt-5 mt-5 border-t border-gray-200">
         <h2 className="text-center text-white text-sm">
-          طراحی و توسعه وب سایت توسط{" "}
+          طراحی و توسعه وب سایت توسط 
           <Link to="www.abolfazltalebii.ir" className="text-orangee font-bold">
             ابوالفضل طالبی
-          </Link>{" "}
+          </Link> 
           انجام شه است.
         </h2>
       </div>
