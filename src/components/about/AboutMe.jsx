@@ -1,22 +1,20 @@
-import AboutSection from "./AboutSection";
 import CallActionSection from "../Common/CallActionSection";
 import ContactSection from "../Common/ContactSection";
-import HeroSection from "./HeroSection";
+import HeroAboutSection from "./HeroAboutSection";
 import PartnersSection from "../Common/PartnersSection";
 import ServicesSecton from "../Common/ServicesSecton";
 import TeamsSection from "../Common/TeamsSection";
 import WebLogSection from "../Common/WebLogSection";
 
-export default function Home() {
+export default function AboutMe() {
   return (
     <>
-      <HeroSection />
+      <HeroAboutSection />
       <PartnersSection />
-      <AboutSection />
-      <ServicesSecton />
       <ContactSection />
-      <TeamsSection />
+      <ServicesSecton />
       <CallActionSection />
+      <TeamsSection />
       <WebLogSection />
     </>
   );
