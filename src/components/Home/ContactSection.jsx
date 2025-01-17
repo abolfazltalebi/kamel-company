@@ -1,11 +1,12 @@
-import contactMe from "../../assets/images/contactMe.webp";
-import { Link } from "react-router-dom";
 import Instagram from "/src/assets/images/icons/Instagram.svg";
+import { Link } from "react-router-dom";
 import LinkedIn from "/src/assets/images/icons/Linkedin.svg";
 import WhatsApp from "/src/assets/images/icons/WhatsApp.svg";
+import contactMe from "../../assets/images/contactMe.webp";
+
 export default function ContactSection() {
   return (
-    <section className="container grid grid-cols-1 sm:grid-cols-2 items-center justify-between">
+    <section className="container grid grid-cols-1 sm:grid-cols-2 items-center justify-between gap-2">
       <div>
         <img src={contactMe}  className="h-[400px]" alt="" />
       </div>

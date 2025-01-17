@@ -1,9 +1,11 @@
-import HeroSection from "./HeroSection";
 import AboutSection from "./AboutSection";
-import ServicesSecton from "./ServicesSecton";
-import PartnersSection from "./PartnersSection";
+import CallActionSection from "./CallActionSection";
 import ContactSection from "./ContactSection";
-// import TeamsSection from "./TeamsSection";
+import HeroSection from "./HeroSection";
+import PartnersSection from "./PartnersSection";
+import ServicesSecton from "./ServicesSecton";
+import TeamsSection from "./TeamsSection";
+
 export default function Home() {
   return (
     <>
@@ -12,7 +14,8 @@ export default function Home() {
       <AboutSection />
       <ServicesSecton />
       <ContactSection />
-      {/* <TeamsSection /> */}
+      <TeamsSection />
+      <CallActionSection/>
     </>
   );
 }
