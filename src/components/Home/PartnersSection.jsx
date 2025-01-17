@@ -4,11 +4,14 @@ import "swiper/css/pagination";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import { Autoplay } from "swiper/modules";
+import { motion } from "framer-motion";
 import { patnersImage } from "../../contatans/partnersImage";
 
 export default function PartnersSection() {
   return (
-    <section className="container space-y-5">
+    <motion.section  initial={{ opacity: 0, x: 20 }}
+    whileInView={{ opacity: 1, x: 0 }}
+    transition={{ duration: 0.5 }} className="container space-y-5">
       <div className="flex items-center justify-center">
         <h2 className="text-center text-base sm:text-3xl text-white font-bold">
           همکاران ما
@@ -55,6 +58,6 @@ export default function PartnersSection() {
           </SwiperSlide>
         ))}
       </Swiper>
-    </section>
+    </motion.section>
   );
 }

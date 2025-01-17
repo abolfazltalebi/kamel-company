@@ -1,9 +1,15 @@
 import Buttons from "../Layout/Buttons";
 import callToAction from "../../assets/images/coverCallToAction.webp";
+import { motion } from "framer-motion";
 
 export default function CallActionSection() {
   return (
-    <section className="space-y-5 container flex flex-wrap sm:flex-nowrap items-center justify-between gap-1">
+    <motion.section
+      initial={{ opacity: 0, y: -20 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.5 }}
+      className="space-y-5 container flex flex-wrap sm:flex-nowrap items-center justify-between gap-1"
+    >
       <div className="w-full sm:w-1/2">
         <img src={callToAction} className="" alt="" />
       </div>
@@ -16,6 +22,6 @@ export default function CallActionSection() {
         </p>
         <Buttons titleOne={"تماس با ما"} titleTwo={"همکاری با ما"} />
       </div>
-    </section>
+    </motion.section>
   );
 }

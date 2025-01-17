@@ -1,9 +1,15 @@
 import Buttons from "../Layout/Buttons";
 import heroSection from "../../assets/images/heroSection.webp";
+import { motion } from "framer-motion";
 
 export default function HeroSection() {
   return (
-    <section className="grid grid-cols-1 sm:grid-cols-2 items-center justify-between gap-4 container mt-6">
+    <motion.section
+      initial={{ opacity: 0, y: -20 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.5 }}
+      className="grid grid-cols-1 sm:grid-cols-2 items-center justify-between gap-4 container mt-6"
+    >
       <div className="space-y-6">
         <div className="bg-blur px-4 py-2 rounded-full inline-flex">
           <p className="text-sm">دنیای جدید تگنولوژی رو با ما تجربه کنید</p>
@@ -22,6 +28,6 @@ export default function HeroSection() {
       <div>
         <img src={heroSection} alt="" />
       </div>
-    </section>
+    </motion.section>
   );
 }

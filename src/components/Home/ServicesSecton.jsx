@@ -5,11 +5,17 @@ import { Autoplay, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import { IoMdArrowBack } from "react-icons/io";
+import { motion } from "framer-motion";
 import { services } from "../../contatans/services";
 
 export default function ServicesSecton() {
   return (
-    <section className="container space-y-5">
+    <motion.section
+      initial={{ opacity: 0, y: -20 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.5 }}
+      className="container space-y-5"
+    >
       <div className="flex items-center justify-center">
         <h2 className="text-center text-base sm:text-3xl text-white font-bold">
           خدمات ما
@@ -30,7 +36,6 @@ export default function ServicesSecton() {
           disableOnInteraction: false,
         }}
         breakpoints={{
-       
           640: {
             slidesPerView: 2,
           },
@@ -57,6 +62,6 @@ export default function ServicesSecton() {
           </SwiperSlide>
         ))}
       </Swiper>
-    </section>
+    </motion.section>
   );
 }

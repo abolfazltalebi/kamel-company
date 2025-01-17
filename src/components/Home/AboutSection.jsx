@@ -1,8 +1,11 @@
 import aboutImage from "../../assets/images/aboutSection.webp";
+import { motion } from "framer-motion";
 
 export default function AboutSection() {
   return (
-    <section className="container space-y-5">
+    <motion.section  initial={{ opacity: 0, x: -20 }}
+    whileInView={{ opacity: 1, x: 0 }}
+    transition={{ duration: 0.5 }} className="container space-y-5">
       <div className="flex items-center justify-center">
         <h2 className="text-center text-xl sm:text-3xl text-white font-bold">
           درباره ما
@@ -34,6 +37,6 @@ export default function AboutSection() {
           <img src={aboutImage} alt="" />
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 }
