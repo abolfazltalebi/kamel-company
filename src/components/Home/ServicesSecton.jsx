@@ -3,8 +3,10 @@ import "swiper/css/pagination";
 
 import { Autoplay, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
+
 import { IoMdArrowBack } from "react-icons/io";
 import { services } from "../../contatans/services";
+
 export default function ServicesSecton() {
   return (
     <section className="container space-y-5">
@@ -28,6 +30,7 @@ export default function ServicesSecton() {
           disableOnInteraction: false,
         }}
         breakpoints={{
+       
           640: {
             slidesPerView: 2,
           },

@@ -1,14 +1,15 @@
 import aboutImage from "../../assets/images/aboutSection.webp";
+
 export default function AboutSection() {
   return (
     <section className="container space-y-5">
       <div className="flex items-center justify-center">
-        <h2 className="text-center text-base sm:text-3xl text-white font-bold">
+        <h2 className="text-center text-xl sm:text-3xl text-white font-bold">
           درباره ما
         </h2>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 items-center justify-between">
-        <div className="space-y-5">
+        <div className="space-y-5 order-last sm:order-first">
           <h2 className=" text-base sm:text-3xl text-white font-bold">
             با ما کسب وکار خود را باتکنولوژی روز به روز اوج خود برسانید
           </h2>

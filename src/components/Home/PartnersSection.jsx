@@ -1,9 +1,11 @@
 import "swiper/css";
 import "swiper/css/pagination";
 
-import { Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
+
+import { Autoplay } from "swiper/modules";
 import { patnersImage } from "../../contatans/partnersImage";
+
 export default function PartnersSection() {
   return (
     <section className="container space-y-5">
@@ -17,7 +19,7 @@ export default function PartnersSection() {
         spaceBetween={30}
         slidesPerView={3}
         loop={true}
-        speed={2500}
+        speed={1500}
         autoplay={{
           delay: 0,
           disableOnInteraction: false,
@@ -26,8 +28,8 @@ export default function PartnersSection() {
         }}
         breakpoints={{
           320: {
-            slidesPerView: 2,
-            spaceBetween: 20,
+            slidesPerView: 3,
+            spaceBetween: 5,
           },
           640: {
             slidesPerView: 3,

@@ -18,7 +18,7 @@ export default function ContactSection() {
         </p>
         <div className="flex flex-col gap-3">
           <Link to={"/"}>
-            <div className="bg-blur px-3 py-2 rounded-full w-2/3 flex items-center gap-2 ">
+            <div className="bg-blur px-3 py-2 rounded-full sm:w-2/3 flex items-center gap-2 ">
               <img src={Instagram} className="size-7" alt="" />
               <p className="text-sm">
                 موسسه تجاری کامل را در 
@@ -27,7 +27,7 @@ export default function ContactSection() {
             </div>
           </Link>
           <Link to={"/"}>
-            <div className="bg-blur px-3 py-2 rounded-full w-2/3 flex items-center gap-2 ">
+            <div className="bg-blur px-3 py-2 rounded-full sm:w-2/3 flex items-center gap-2 ">
               <img src={LinkedIn} className="size-6" alt="" />
               <p className="text-sm">
                 موسسه تجاری کامل را در 
@@ -36,7 +36,7 @@ export default function ContactSection() {
             </div>
           </Link>
           <Link to={"/"}>
-            <div className="bg-blur px-3 py-2 rounded-full w-2/3 flex items-center gap-2 ">
+            <div className="bg-blur px-3 py-2 rounded-full sm:w-2/3 flex items-center gap-2 ">
               <img src={WhatsApp} className="size-6" alt="" />
               <p className="text-sm">
                 برای ارتباط بهتر با ما در واتس آپ با ما صحبت کنید
