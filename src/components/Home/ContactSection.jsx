@@ -9,7 +9,7 @@ export default function ContactSection() {
     <section className="container grid grid-cols-1 sm:grid-cols-2 items-center justify-between gap-2">
       <div>
         <img src={contactMe}  className="h-[400px]" alt="" />
-      </div>
+      </div> 
       <div className="space-y-5">
         <h2 className="text-base sm:text-3xl text-white font-bold">راه های ارتباطی ما</h2>
         <p className="text-sm text-white/75">
