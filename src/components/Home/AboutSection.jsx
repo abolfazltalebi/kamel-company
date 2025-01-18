@@ -11,8 +11,8 @@ export default function AboutSection() {
           درباره ما
         </h2>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 items-center justify-between">
-        <div className="space-y-5 order-last sm:order-first">
+      <div className="flex sm:flex-nowrap flex-wrap gap-4 items-center justify-between">
+        <div className="space-y-5 order-last sm:order-first sm:size-[100%]">
           <h2 className=" text-base sm:text-3xl text-white font-bold">
             با ما کسب وکار خود را باتکنولوژی روز به روز اوج خود برسانید
           </h2>
@@ -33,7 +33,7 @@ export default function AboutSection() {
             تماس با ما
           </button>
         </div>
-        <div>
+        <div className=" ">
           <img src={aboutImage} alt="" />
         </div>
       </div>
