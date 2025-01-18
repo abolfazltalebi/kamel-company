@@ -1,8 +1,15 @@
+import ContactSection from "../Common/ContactSection";
+import TeamsSection from "../Common/TeamsSection";
+import Video from "../Common/video";
+import WebLogSection from "../Common/WebLogSection";
 
-export default function contactMe() {
+export default function ContactMe() {
   return (
-    <div>
-      
-    </div>
-  )
+    <>
+      <Video />
+      <ContactSection />
+      <TeamsSection />
+      <WebLogSection />
+    </>
+  );
 }
