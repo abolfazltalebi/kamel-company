@@ -5,6 +5,7 @@ import { Autoplay, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import { IoMdArrowBack } from "react-icons/io";
+import SectionTitle from "../SectionTitle";
 import instagram from "../../assets/images/icons/Instagram.svg";
 import lineTeam from "../../assets/images/line-team.svg";
 import linkedin from "../../assets/images/icons/LinkedIn.svg";
@@ -14,14 +15,7 @@ import { teamItems } from "../../contatans/TeamItem";
 export default function TeamsSection() {
   return (
     <section className="container space-y-5">
-      <motion.h2 
-        initial={{ opacity: 0, y: -20 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5 }}
-        className="text-base sm:text-3xl text-white font-bold"
-      >
-        تیم ما
-      </motion.h2>
+      <SectionTitle title="تیم ما" subtitle="یا تیم ما آشنا بشید" />
       <Swiper
         modules={[Autoplay, Pagination]}
         spaceBetween={20}
@@ -36,11 +30,10 @@ export default function TeamsSection() {
           delay: 1500,
           disableOnInteraction: false,
         }}
-      
         loop={true}
         speed={1500}
         breakpoints={{
-          480:{
+          480: {
             slidesPerView: 2,
           },
           640: {
@@ -57,22 +50,22 @@ export default function TeamsSection() {
       >
         {teamItems.map((service) => (
           <SwiperSlide key={service.id}>
-            <motion.div 
+            <motion.div
               initial={{ opacity: 0, scale: 0.8 }}
               whileInView={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.5 }}
               whileHover={{ y: -5 }}
               className="flex flex-col items-center justify-between gap-3 relative"
             >
-              <motion.img 
+              <motion.img
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ duration: 0.3 }}
-                src={service.image} 
-                className="rounded-3xl" 
-                alt="" 
+                src={service.image}
+                className="rounded-3xl"
+                alt=""
               />
-              <motion.div 
+              <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: 0.2 }}
@@ -92,7 +85,7 @@ export default function TeamsSection() {
                     <img src={instagram} alt="" className="size-8" />
                     <img src={linkedin} alt="" className="size-6" />
                   </div>
-                  <motion.button 
+                  <motion.button
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     className="px-[15px] text-xs py-2.5 rounded-[10px] bg-orangee flex items-center justify-center gap-2 font-bold transition-all duration-300 hover:px-[20px] hover:bg-transparent hover:text-orangee hover:border hover:border-orangee"

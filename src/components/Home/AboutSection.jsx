@@ -1,16 +1,16 @@
+import SectionTitle from "../SectionTitle";
 import aboutImage from "../../assets/images/aboutSection.webp";
 import { motion } from "framer-motion";
 
 export default function AboutSection() {
   return (
-    <motion.section  initial={{ opacity: 0, x: -20 }}
-    whileInView={{ opacity: 1, x: 0 }}
-    transition={{ duration: 0.5 }} className="container space-y-5">
-      <div className="flex items-center justify-center">
-        <h2 className="text-center text-xl sm:text-3xl text-white font-bold">
-          درباره ما
-        </h2>
-      </div>
+    <motion.section
+      initial={{ opacity: 0, x: -20 }}
+      whileInView={{ opacity: 1, x: 0 }}
+      transition={{ duration: 0.5 }}
+      className="container space-y-5"
+    >
+      <SectionTitle title="درباره ما" subtitle="یا ما بیشتر آشنا بشید" />
       <div className="flex sm:flex-nowrap flex-wrap gap-4 items-center justify-between">
         <div className="space-y-5 order-last sm:order-first sm:size-[100%]">
           <h2 className=" text-base sm:text-3xl text-white font-bold">

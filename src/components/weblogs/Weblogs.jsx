@@ -1,14 +1,14 @@
-import Video from "../Common/Video";
+import SectionTitle from "../SectionTitle";
+import Video from "../Common/video";
 import WebLogSection from "./WebLogSection";
 
 export default function Weblogs() {
   return (
     <>
-      <section className="mt-12">
-        <h2 className="text-white text-4xl text-center">
-          وبلاگ موسسه تجاری کامل
-        </h2>
-      </section>
+      <SectionTitle
+        title="وبلاگ ما"
+        subtitle="وبلاگ ما راهنمای شماست."
+      />
       <Video />
       <WebLogSection />
     </>

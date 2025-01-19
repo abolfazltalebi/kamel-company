@@ -5,6 +5,7 @@ import { Autoplay, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import { IoMdArrowBack } from "react-icons/io";
+import SectionTitle from "../SectionTitle";
 import { motion } from "framer-motion";
 import { services } from "../../contatans/services";
 
@@ -15,12 +16,9 @@ export default function ServicesSecton() {
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
       className="container space-y-5"
+      id="khadamat"
     >
-      <div className="flex items-center justify-center">
-        <h2 className="text-center text-base sm:text-3xl text-white font-bold">
-          خدمات ما
-        </h2>
-      </div>
+      <SectionTitle title="خدمات ما" subtitle="یا خدمات ما آشنا بشید" />
       <Swiper
         modules={[Autoplay, Pagination]}
         spaceBetween={20}
