@@ -1,5 +1,5 @@
 import SectionTitle from "../SectionTitle";
-import Video from "../Common/video";
+import Video from "../Common/Video";
 import WebLogSection from "./WebLogSection";
 
 export default function Weblogs() {
