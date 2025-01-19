@@ -1,8 +1,8 @@
-import Instagram from "../../assets/images/icons/Instagram.svg";
+import Instagram from "../assets/images/icons/Instagram.svg";
 import { Link } from "react-router-dom";
-import LinkedIn from "../../assets/images/icons/Linkedin.svg";
-import WhatsApp from "../../assets/images/icons/WhatsApp.svg";
-import contactMe from "../../assets/images/contactMe.webp";
+import LinkedIn from "../assets/images/icons/Linkedin.svg";
+import WhatsApp from "../assets/images/icons/WhatsApp.svg";
+import contactMe from "../assets/images/contactMe.webp";
 import { motion } from "framer-motion";
 
 export default function ContactSection() {
