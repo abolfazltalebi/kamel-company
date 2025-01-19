@@ -2,17 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 @font-face {
-  font-family: "Rastin";
-  src: url("/src/assets/font/rastin.ttf") ;
+  font-family: "Estedad";
+  src:
+  url("/src/assets/font/Estedad-Regular.ttf"),
+   url("/src/assets/font/Estedad-Medium.ttf"),
+    url("/src/assets/font/Estedad-Thin.ttf"),
+    url("/src/assets/font/Estedad-Bold.ttf"),
+    url("/src/assets/font/Estedad-ExtraBold.ttf");
 }
 html,
 body {
-  font-family: "Rastin";
+  font-family: "Estedad";
   @apply bg-bg-main;
+}
+p {
+  @apply font-normal;
 }
 .swiper-pagination-bullet {
   opacity: 0.9;
-  transition: all 0.3s; 
+  transition: all 0.3s;
   width: 15px !important;
   height: 15px !important;
 }
