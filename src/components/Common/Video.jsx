@@ -2,7 +2,7 @@ import { BiPlay } from "react-icons/bi";
 import coverVideo from "../../assets/images/covervideo.webp";
 import { motion } from "framer-motion";
 
-export default function video() {
+export default function Video() {
   return (
     <motion.section
       initial={{ opacity: 0, y: -20 }}
