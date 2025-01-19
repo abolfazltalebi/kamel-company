@@ -9,13 +9,13 @@ export default function FooterSocial() {
       </div>
       <div className="flex items-center  gap-4">
         <Link to={"/"}>
-          <img src="/src/assets/images/icons/Instagram.svg" alt="" />
+          <img src="../../assets/images/icons/Instagram.svg" alt="" />
         </Link>
         <Link to={"/"}>
-          <img src="/src/assets/images/icons/LinkedIn.svg" alt="" />
+          <img src="../../assets/images/icons/LinkedIn.svg" alt="" />
         </Link>
         <Link to={"/"}>
-          <img src="/src/assets/images/icons/WhatsApp.svg" alt="" />
+          <img src="../../assets/images/icons/WhatsApp.svg" alt="" />
         </Link>
       </div>
     </div>
