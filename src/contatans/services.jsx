@@ -1,8 +1,9 @@
-import seo from "../assets/images/icons/seo.svg";
-import tarahiweb from "../assets/images/icons/code-website.svg";
-import ui from "../assets/images/icons/UIUX.svg";
-import wordpress from "../assets/images/icons/wordpress.svg";
-import digital from "../assets/images/icons/digital-marketing.svg";
+import digital from "/images/icons/Digital-marketing.svg";
+import seo from "/images/icons/seo.svg";
+import tarahiweb from "/images/icons/code-website.svg";
+import ui from "/images/icons/UIUX.svg";
+import wordpress from "/images/icons/wordpress.svg";
+
 export const services = [
   {
     id: 1,
