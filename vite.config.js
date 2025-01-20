@@ -8,5 +8,6 @@ export default defineConfig({
     alias: {
       "/images": "/src/assets/images",
     },
+    extensions: [".js", ".jsx"],
   },
 });
