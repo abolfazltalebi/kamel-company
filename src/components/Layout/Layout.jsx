@@ -6,7 +6,7 @@ function Layout() {
   return (
     <>
       <Header />
-      <main className="space-y-12 mt-24">
+      <main className="space-y-12 mt-24 overflow-hidden">
         <Outlet />
       </main>
       <Footer />

@@ -14,7 +14,7 @@ export default function CallActionSection() {
         <img src={callToAction} className="" alt="" />
       </div>
       <div className="space-y-5">
-        <h2 className="font-bold text-4xl text-white">
+        <h2 className="font-bold text-xl sm:text-4xl text-white">
           برای رشد کسب و کار خود اماده باشید و با ما در ارتباط باشید
         </h2>
         <p className="text-white text-md">

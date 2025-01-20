@@ -20,7 +20,7 @@ export default function PartnersSection() {
       <Swiper
         modules={[Autoplay]}
         spaceBetween={30}
-        slidesPerView={3}
+        slidesPerView={2}
         loop={true}
         speed={1500}
         autoplay={{
@@ -30,10 +30,7 @@ export default function PartnersSection() {
           reverseDirection: false,
         }}
         breakpoints={{
-          320: {
-            slidesPerView: 3,
-            spaceBetween: 5,
-          },
+        
           640: {
             slidesPerView: 3,
             spaceBetween: 30,

@@ -5,6 +5,7 @@ import { Autoplay, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import { IoMdArrowBack } from "react-icons/io";
+import SectionTitle from "../SectionTitle";
 import lineTeam from "../../assets/images/line-team.svg";
 import { motion } from "framer-motion";
 import { weblogItems } from "../../contatans/weblogItem";
@@ -12,14 +13,7 @@ import { weblogItems } from "../../contatans/weblogItem";
 export default function WebLogSection() {
   return (
     <section className="container space-y-5">
-      <motion.h2
-        initial={{ opacity: 0, y: -20 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5 }}
-        className="text-base sm:text-3xl text-white font-bold"
-      >
-        وبلاگّ ما
-      </motion.h2>
+    <SectionTitle title="وبلاگ ما" subtitle="با وبلاگ ما بروز باشید."/>
       <Swiper
         modules={[Autoplay, Pagination]}
         spaceBetween={20}
