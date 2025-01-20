@@ -11,13 +11,13 @@ export default function ContactSection() {
       initial={{ opacity: 0, x: -20 }}
       whileInView={{ opacity: 1, x: 0 }}
       transition={{ duration: 0.5 }}
-      className="container grid grid-cols-1 sm:grid-cols-2 items-center justify-between gap-2"
+      className="container grid grid-cols-1 sm:grid-cols-2 items-center justify-between gap-4"
     >
-      <div>
-        <img src={contactMe} className="h-[400px]" alt="" />
+      <div className="flex items-center justify-center">
+        <img src={contactMe} className="h-[300px] sm:h-[400px]" alt="" />
       </div>
       <div className="space-y-5">
-        <h2 className="text-base sm:text-3xl text-white font-bold">
+        <h2 className="text-xl sm:text-3xl text-white font-bold">
           راه های ارتباطی ما
         </h2>
         <p className="text-sm text-white/75">

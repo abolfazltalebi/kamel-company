@@ -1,4 +1,7 @@
+import Instagram from "/src/assets/images/icons/Instagram.svg";
 import { Link } from "react-router-dom";
+import LinkedIn from "/src/assets/images/icons/LinkedIn.svg";
+import WhatsApp from "/src/assets/images/icons/WhatsApp.svg";
 
 export default function FooterSocial() {
   return (
@@ -9,13 +12,13 @@ export default function FooterSocial() {
       </div>
       <div className="flex items-center  gap-4">
         <Link to={"/"}>
-          <img src="../../assets/images/icons/Instagram.svg" alt="" />
+          <img src={Instagram} className="size-9" alt="" />
         </Link>
         <Link to={"/"}>
-          <img src="../../assets/images/icons/LinkedIn.svg" alt="" />
+          <img src={LinkedIn} className="size-9" alt="" />
         </Link>
         <Link to={"/"}>
-          <img src="../../assets/images/icons/WhatsApp.svg" alt="" />
+          <img src={WhatsApp} className="size-9" alt="" />
         </Link>
       </div>
     </div>
