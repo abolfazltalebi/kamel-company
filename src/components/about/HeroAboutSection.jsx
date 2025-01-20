@@ -10,8 +10,8 @@ export default function HeroAboutSection() {
       transition={{ duration: 0.5 }}
       className="container mt-5  grid grid-cols-1 sm:grid-cols-2 gap-12 items-center justify-center"
     >
-      <div className="space-y-5">
-        <h2 className="text-3xl text-white font-bold">
+      <div className="space-y-5 order-last md:order-first">
+        <h2 className="text-3xl text-white font-bold leading-10">
           با ما کسب وکار خود را باتکنولوژی روز به اوج خود برسانید
         </h2>
         <p className="text-sm leading-6 text-justify break-normal text-white/75">
@@ -34,8 +34,8 @@ export default function HeroAboutSection() {
           </button>
         </Link>
       </div>
-      <div>
-        <img src={aboutCover} alt="" />
+      <div className="flex items-center justify-center">
+        <img src={aboutCover} className="h-[350px] sm:h-auto" alt="" />
       </div>
     </motion.section>
   );
