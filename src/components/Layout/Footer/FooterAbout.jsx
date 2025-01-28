@@ -15,7 +15,7 @@ export default function FooterAbout() {
         >
           موسسه تجاری کامل
         </Link>
-        <p className="mt-3 text-xs sm:text-sm text-white/80 text-justify break-normal">
+       <p className="leading-[1.7rem] mt-3 text-xs sm:text-sm text-white/80 text-justify break-normal">
           لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده
           از طراحان گرافیک است لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از
           صنعت چاپ و با استفاده از طراحان گرافیک است لورم ایپسوم متن ساختگی با

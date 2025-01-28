@@ -16,7 +16,7 @@ body {
   @apply bg-bg-main;
 }
 p {
-  @apply font-normal;
+  @apply font-normal ;
 }
 .swiper-pagination-bullet {
   opacity: 0.9;

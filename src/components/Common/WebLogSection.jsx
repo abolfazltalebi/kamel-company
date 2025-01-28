@@ -66,7 +66,7 @@ export default function WebLogSection() {
                 className="space-y-4"
               >
                 <h3 className=" text-base  font-extrabold">{service.title}</h3>
-                <p className="text-xs text-justify line-clamp-3">
+               <p className="leading-[1.7rem] text-xs text-justify line-clamp-3">
                   لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و
                   با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و
                   مجله در ستون و سطرآنچنان که لازم است.

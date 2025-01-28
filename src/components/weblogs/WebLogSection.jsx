@@ -17,7 +17,7 @@ export default function WebLogSection() {
           <h3 className="text-xl font-bold text-gray-800 mb-2">
             {blog.title}
           </h3>
-          <p className="text-gray-600 text-sm mb-4 line-clamp-1">{blog.description}</p>
+         <p className="leading-[1.7rem] text-gray-600 text-sm mb-4 line-clamp-1">{blog.description}</p>
           <span className="text-gray-500 text-xs">{blog.date}</span>
         </div>
 

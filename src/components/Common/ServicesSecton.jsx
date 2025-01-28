@@ -51,7 +51,7 @@ export default function ServicesSecton() {
             <div className="bg-blur backdrop-blur-sm rounded-2xl p-6 h-[320px] flex flex-col items-center justify-between gap-3">
               <img src={service.icon} className="size-20" alt="" />
               <h3 className=" text-xl font-bold">{service.title}</h3>
-              <p className="text-xs text-justify">{service.description}</p>
+             <p className="leading-[1.7rem] text-xs text-justify">{service.description}</p>
               <button className="px-[30px] text-xs py-2.5 rounded-[10px] bg-orangee  flex items-center justify-center gap-2 font-bold transition-all duration-300 hover:px-[40px] hover:bg-transparent hover:text-orangee hover:border hover:border-orangee">
                 سفارش دهید
                 <IoMdArrowBack />

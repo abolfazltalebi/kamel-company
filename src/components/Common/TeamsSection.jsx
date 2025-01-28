@@ -74,7 +74,7 @@ export default function TeamsSection() {
                 <h3 className=" text-base sm:text-2xl font-extrabold">
                   {service.name}
                 </h3>
-                <p className="text-sm sm:text-base text-justify">
+               <p className="leading-[1.7rem] text-sm sm:text-base text-justify">
                   {service.job}
                 </p>
                 <div>

@@ -8,7 +8,7 @@ export default function FooterContact() {
         <h4 className="text-white sm:text-xl font-bold">تماس با ما</h4>
       </div>
       <div className="mt-3  flex flex-col gap-5 text-sm">
-        <p className="text-white font-medium list-none">
+       <p className="leading-[1.7rem] text-white font-medium list-none">
           <Link
             to="tel:0214698000"
             className="transition-all duration-300 hover:border-b hover:border-orangee px-3 py-2 "
@@ -16,12 +16,12 @@ export default function FooterContact() {
             تلفن ثابت: 0214698000
           </Link>
         </p>
-        <p className="text-white font-medium list-none">
+       <p className="leading-[1.7rem] text-white font-medium list-none">
           <Link to="/" className=" px-3 py-2  text-sm">
             آدرس :تهران خیابان انقلاب موسسه تجاری کامل
           </Link>
         </p>
-        <p className="text-white font-medium list-none">
+       <p className="leading-[1.7rem] text-white font-medium list-none">
           <Link
             to="mailTo:suport@gmail.com"
             className="transition-all duration-300 hover:border-b hover:border-orangee px-3 py-2 "

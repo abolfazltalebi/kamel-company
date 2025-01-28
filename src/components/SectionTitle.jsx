@@ -12,7 +12,7 @@ const SectionTitle = ({ title, subtitle }) => {
         {title}
       </h2>
       {subtitle && (
-        <p className="text-gray-300 mt-2 text-lg max-w-md">{subtitle}</p>
+       <p className="leading-[1.7rem] text-gray-300 mt-2 text-lg max-w-md">{subtitle}</p>
       )}
       <div className="w-16 h-1  bg-gradient-to-l from-orangee to-white/80 rounded-full mt-3"></div>
     </motion.div>

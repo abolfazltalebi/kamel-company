@@ -17,7 +17,7 @@ export default function CallActionSection() {
         <h2 className="font-bold text-xl sm:text-4xl text-white">
           برای رشد کسب و کار خود اماده باشید و با ما در ارتباط باشید
         </h2>
-        <p className="text-white text-md">
+       <p className="leading-[1.7rem] text-white text-md">
           مشاوران ما شما رو برای شروع راهنمایی میکند با ما در ارتباط باشید.
         </p>
         <Buttons titleOne={"تماس با ما"} titleTwo={"همکاری با ما"} />

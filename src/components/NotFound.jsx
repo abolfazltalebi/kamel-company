@@ -143,7 +143,7 @@ export default function NotFound() {
             <h5 className="md:text-xl text-lg leading-8 text-white font-medium mb-1.5">
               صفحه موردنظر یافت نشد
             </h5>
-            <p className="text-sm text-gray-100">به صفحه اصلی برگردید.</p>
+           <p className="leading-[1.7rem] text-sm text-gray-100">به صفحه اصلی برگردید.</p>
           </div>
             <Link to={"/"}>
               <button className="px-[30px] text-sm mt-6 py-2.5 rounded-[10px] bg-orangee text-white flex items-center justify-center font-bold transition-all duration-300 hover:px-[40px] hover:bg-transparent hover:text-orangee hover:border hover:border-orangee">

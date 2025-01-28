@@ -14,7 +14,7 @@ export default function HeroAboutSection() {
         <h2 className="text-3xl text-white font-bold leading-10">
           با ما کسب وکار خود را باتکنولوژی روز به اوج خود برسانید
         </h2>
-        <p className="text-sm leading-6 text-justify break-normal text-white/75">
+       <p className="leading-[1.7rem] text-sm leading-6 text-justify break-normal text-white/75">
           لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
           استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در
           ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و

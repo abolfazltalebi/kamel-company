@@ -16,7 +16,7 @@ export default function AboutSection() {
           <h2 className=" text-base sm:text-3xl text-white font-bold">
             با ما کسب وکار خود را باتکنولوژی روز به روز اوج خود برسانید
           </h2>
-          <p className="text-justify text-white/75 text-sm">
+         <p className="leading-[1.7rem] text-justify text-white/75 text-sm">
             لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
             استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در
             ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز،
