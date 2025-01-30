@@ -18,6 +18,9 @@ body {
 p {
   @apply font-normal ;
 }
+img{
+  @apply w-full h-auto bg-auto;
+}
 .swiper-pagination-bullet {
   opacity: 0.9;
   transition: all 0.3s;
