@@ -57,7 +57,7 @@ export default function TeamsSection() {
               whileHover={{ y: -5 }}
               className="flex flex-col items-center justify-between gap-3 relative"
             >
-              <motion.img
+              <motion.img loading="lazy"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ duration: 0.3 }}
@@ -78,12 +78,12 @@ export default function TeamsSection() {
                   {service.job}
                 </p>
                 <div>
-                  <img src={lineTeam} alt="" />
+                  <img loading="lazy" src={lineTeam} alt="" />
                 </div>
                 <div className="flex items-center justify-center sm:justify-between w-full">
                   <div className="hidden sm:flex items-center gap-1">
-                    <img src={instagram} alt="" className="size-8" />
-                    <img src={linkedin} alt="" className="size-6" />
+                    <img loading="lazy" src={instagram} alt="" className="size-8" />
+                    <img loading="lazy" src={linkedin} alt="" className="size-6" />
                   </div>
                   <motion.button
                     whileHover={{ scale: 1.05 }}

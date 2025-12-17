@@ -12,13 +12,13 @@ export default function FooterSocial() {
       </div>
       <div className="flex items-center  gap-4">
         <Link to={"/"}>
-          <img src={Instagram} className="size-9" alt="" />
+          <img loading="lazy" src={Instagram} className="size-9" alt="" />
         </Link>
         <Link to={"/"}>
-          <img src={LinkedIn} className="size-9" alt="" />
+          <img loading="lazy" src={LinkedIn} className="size-9" alt="" />
         </Link>
         <Link to={"/"}>
-          <img src={WhatsApp} className="size-9" alt="" />
+          <img loading="lazy" src={WhatsApp} className="size-9" alt="" />
         </Link>
       </div>
     </div>

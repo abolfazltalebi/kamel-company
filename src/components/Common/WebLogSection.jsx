@@ -49,9 +49,9 @@ export default function WebLogSection() {
               initial={{ opacity: 0, scale: 0.8 }}
               whileInView={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.5 }}
-              className="bg-blur backdrop-blur-sm rounded-xl p-3  flex flex-col items-center justify-center gap-2 sm:h-[360px]"
+              className="bg-blur backdrop-blur-sm rounded-xl p-3  flex flex-col items-center justify-center gap-2"
             >
-              <motion.img
+              <motion.img loading="lazy"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ duration: 0.3 }}
@@ -72,7 +72,7 @@ export default function WebLogSection() {
                   مجله در ستون و سطرآنچنان که لازم است.
                 </p>
                 <div>
-                  <img src={lineTeam} className="w-full" alt="" />
+                  <img loading="lazy" src={lineTeam} className="w-full" alt="" />
                 </div>
                 <div className="flex items-center justify-center w-full">
                   <motion.button

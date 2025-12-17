@@ -8,10 +8,10 @@ export default function CallActionSection() {
       initial={{ opacity: 0, y: -20 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
-      className="space-y-5 container flex flex-wrap sm:flex-nowrap items-center justify-between gap-1"
+      className="space-y-5 container flex flex-wrap sm:flex-nowrap items-center justify-between gap-12"
     >
       <div className="w-full sm:w-1/2">
-        <img src={callToAction} className="" alt="" />
+        <img loading="lazy" src={callToAction} className="" alt="" />
       </div>
       <div className="space-y-5">
         <h2 className="font-bold text-xl sm:text-4xl text-white">

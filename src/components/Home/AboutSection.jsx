@@ -11,12 +11,12 @@ export default function AboutSection() {
       className="container space-y-5"
     >
       <SectionTitle title="درباره ما" subtitle="یا ما بیشتر آشنا بشید" />
-      <div className="flex sm:flex-nowrap flex-wrap gap-4 items-center justify-between">
+      <div className="flex sm:flex-nowrap flex-wrap gap-12 items-center justify-between">
         <div className="space-y-5 order-last sm:order-first sm:size-[100%]">
           <h2 className=" text-base sm:text-3xl text-white font-bold">
             با ما کسب وکار خود را باتکنولوژی روز به روز اوج خود برسانید
           </h2>
-         <p className="leading-[1.7rem] text-justify text-white/75 text-sm">
+         <p className="leading-[1.7rem] text-justify text-white/90 text-sm">
             لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
             استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در
             ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز،
@@ -34,7 +34,7 @@ export default function AboutSection() {
           </button>
         </div>
         <div className=" ">
-          <img src={aboutImage} alt="" />
+          <img loading="lazy" src={aboutImage} alt="" />
         </div>
       </div>
     </motion.section>

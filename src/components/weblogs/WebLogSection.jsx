@@ -8,7 +8,7 @@ export default function WebLogSection() {
         key={blog.id}
         className="blog-item bg-white rounded-2xl p-2  shadow-lg overflow-hidden transition-all duration-300 hover:transform hover:scale-105 relative group"
       >
-        <img
+        <img loading="lazy"
           src={blog.image}
           alt={blog.title}
           className="w-full h-48 object-cover rounded-xl"

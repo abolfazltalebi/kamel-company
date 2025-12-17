@@ -47,7 +47,7 @@ export default function PartnersSection() {
             key={index}
             className="flex items-center justify-center p-3"
           >
-            <img
+            <img loading="lazy"
               src={pItem.src}
               alt={pItem.alt}
               className="max-w-[120px] object-contain"

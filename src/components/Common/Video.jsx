@@ -11,7 +11,7 @@ export default function Video() {
       className="container space-y-5"
     >
       <div className="relative">
-        <img src={coverVideo} alt="" />
+        <img loading="lazy" src={coverVideo} alt="" />
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
           <div className="size-14 text-white bg-orangee rounded-full flex items-center justify-center">
             <BiPlay />

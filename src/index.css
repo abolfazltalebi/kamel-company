@@ -2,33 +2,40 @@
 @tailwind components;
 @tailwind utilities;
 @font-face {
-  font-family: "Estedad";
-  src:
-  url("/src/assets/font/Estedad-Regular.ttf"),
-   url("/src/assets/font/Estedad-Medium.ttf"),
-    url("/src/assets/font/Estedad-Thin.ttf"),
-    url("/src/assets/font/Estedad-Bold.ttf"),
-    url("/src/assets/font/Estedad-ExtraBold.ttf");
+  font-family: "iran";
+  src: url("/src/assets/font/IRAN.woff2") format("woff2");
 }
 html,
 body {
-  font-family: "Estedad";
+  font-family: "iran";
   @apply bg-bg-main;
 }
 p {
-  @apply font-normal ;
+  @apply font-normal;
 }
-img{
+img {
   @apply w-full h-auto bg-auto;
+}
+.bg-header{
+  background: #eef2fd;
 }
 .swiper-pagination-bullet {
   opacity: 0.9;
   transition: all 0.3s;
-  width: 15px !important;
-  height: 15px !important;
+  width: 30px !important;
+  height: 10px !important;
+  border-radius: 10px !important;
 }
 
 .swiper-pagination-bullet-active {
   opacity: 1;
   transform: scale(1.3);
+}
+
+.bg-section{
+  background-image: url('./assets/images/backSection.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+ 
 }
