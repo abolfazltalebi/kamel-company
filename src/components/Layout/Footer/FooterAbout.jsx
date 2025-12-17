@@ -13,7 +13,7 @@ export default function FooterAbout() {
           to="/"
           aria-label="Brand"
         >
-          موسسه تجاری کامل
+          موسسه تجاری کاملینو
         </Link>
        <p className="leading-[1.7rem] mt-3 text-xs sm:text-sm text-white/80 text-justify break-normal">
           لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده

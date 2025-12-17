@@ -18,7 +18,7 @@ export default function FooterContact() {
         </p>
        <p className="leading-[1.7rem] text-white font-medium list-none">
           <Link to="/" className=" px-3 py-2  text-sm">
-            آدرس :تهران خیابان انقلاب موسسه تجاری کامل
+            آدرس :تهران خیابان انقلاب موسسه تجاری کاملینو
           </Link>
         </p>
        <p className="leading-[1.7rem] text-white font-medium list-none">

@@ -16,7 +16,7 @@ export default function HeroSection() {
            <p className="leading-[1.7rem] text-sm">دنیای جدید نوآوری و تجارت رو با ما تجربه کنید</p>
           </div>
           <h2 className="text-base sm:text-3xl text-white leading-normal font-extrabold">
-            تکنولوژی جدید و ارتباط جدید در دنیا با موسسه تجاری کامل تجربه کنید
+            تکنولوژی جدید و ارتباط جدید در دنیا با موسسه تجاری کاملینو تجربه کنید
           </h2>
          <p className="leading-[1.7rem] text-sm text-white/90 text-justify">
             لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده

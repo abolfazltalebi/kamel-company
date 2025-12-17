@@ -29,7 +29,7 @@ export default function ContactSection() {
             <div className="bg-blur px-3 py-2 rounded-full sm:w-2/3 flex items-center gap-2 ">
               <img loading="lazy" src={Instagram} className="size-7" alt="" />
              <p className="leading-[1.7rem] text-sm">
-                موسسه تجاری کامل را در
+                موسسه تجاری کاملینو را در
                 <span className="text-red-700">اینستاگرام</span> دنبال کنید
               </p>
             </div>
@@ -38,7 +38,7 @@ export default function ContactSection() {
             <div className="bg-blur px-3 py-2 rounded-full sm:w-2/3 flex items-center gap-2 ">
               <img loading="lazy" src={LinkedIn} className="size-6" alt="" />
              <p className="leading-[1.7rem] text-sm">
-                موسسه تجاری کامل را در
+                موسسه تجاری کاملینو را در
                 <span className="text-blue-600">لینکدین</span> دنبال کنید
               </p>
             </div>
