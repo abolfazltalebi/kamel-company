@@ -2,7 +2,7 @@ import Instagram from "../../assets/images/icons/Instagram.svg";
 import { Link } from "react-router-dom";
 import LinkedIn from "../../assets/images/icons/LinkedIn.svg";
 import WhatsApp from "../../assets/images/icons/WhatsApp.svg";
-import contactMe from "../../assets/images/contactMe.webp";
+import contactMe from "../../assets/images/call-section.webp";
 import { motion } from "framer-motion";
 
 export default function ContactSection() {
@@ -14,7 +14,7 @@ export default function ContactSection() {
       className="container grid grid-cols-1 sm:grid-cols-2 items-center justify-between gap-4"
     >
       <div className="flex items-center justify-center">
-        <img loading="lazy" src={contactMe} className="h-[300px] sm:h-[400px]" alt="" />
+        <img loading="lazy" src={contactMe} className="" alt="" />
       </div>
       <div className="space-y-5">
         <h2 className="text-xl sm:text-3xl text-white font-bold">

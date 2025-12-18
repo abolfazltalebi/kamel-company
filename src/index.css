@@ -17,8 +17,9 @@ img {
   @apply w-full h-auto bg-auto;
 }
 .bg-header{
-  background: #eef2fd;
+  background: rgb(255, 255, 255);
 }
+
 .swiper-pagination-bullet {
   opacity: 0.9;
   transition: all 0.3s;
@@ -37,5 +38,43 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
- 
+}
+.btn-animation {
+  background: #ff7043;
+  background: linear-gradient(50deg, #ff7043 8%, #ffbeaa 18%, #ff7043 28%);
+  border-radius: 12px;
+  background-size: 200% 100%;
+  animation: shine 2s linear infinite;
+  color: white;
+  transition: all 0.6s ease;
+}
+
+
+.btn-animation:hover {
+  color: white !important;
+  padding: 15px 60px !important;
+  border-radius: 30px !important;
+}
+
+@keyframes shine {
+  to {
+      background-position-x: -200%
+  }
+}
+.img-animation {
+    animation: bounce 3s infinite;
+}
+
+@keyframes bounce {
+
+    0%,
+    to {
+        transform: translateY(-20px);
+        animation-timing-function: cubic-bezier(.8, 0, 1, 1)
+    }
+
+    50% {
+        transform: none;
+        animation-timing-function: cubic-bezier(0, 0, .2, 1)
+    }
 }

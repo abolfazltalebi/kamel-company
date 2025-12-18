@@ -27,7 +27,7 @@ export default function HeroSection() {
           <Buttons titleOne="تماس با ما" titleTwo="همکاری با ما" />
         </div>
         <div className="">
-          <img loading="lazy" src={heroSection} alt="" />
+          <img loading="lazy" className="img-animation" src={heroSection} alt="" />
         </div>
       </motion.div>
     </section>
